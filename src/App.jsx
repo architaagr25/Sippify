@@ -6,6 +6,7 @@ import { UpdateFollower } from 'react-mouse-follower';
 import Products from './components/Products/Products';
 import Banner from './components/Banner/Banner';
 import BannerText from './components/Banner/BannerText';
+import Stories from './components/Stories/Stories';
 
 const App = () => {
   return <main className='overflow-x-hidden'>
@@ -22,6 +23,7 @@ const App = () => {
       <Products/>
       <Banner/>
       <BannerText/>
+      <Stories/>
       </UpdateFollower>
       </main>;
   
