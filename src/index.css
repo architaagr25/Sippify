@@ -6,12 +6,12 @@
 
 @layer base {
     .text-shadow {
-      text-shadow: -6px 6px 10px rgba(0, 0, 0, 0.4);
+      text-shadow: -6px 6px 10px rgba(0, 0, 0, 0.3);
     }
   }
   
   @layer utilities {
     .img-shadow {
-      filter: drop-shadow(-6px 8px 15px rgba(0, 0, 0, 0.4));
+      filter: drop-shadow(-6px 8px 15px rgba(14, 1, 1, 0.3));
     }
   }
