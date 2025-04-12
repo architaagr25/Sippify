@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import {motion} from 'motion/react';
 import { UpdateFollower } from 'react-mouse-follower';
 import Products from './components/Products/Products';
+import Banner from './components/Banner/Banner';
 
 const App = () => {
   return <main className='overflow-x-hidden'>
@@ -18,6 +19,7 @@ const App = () => {
       >
       <Hero/>
       <Products/>
+      <Banner/>
       </UpdateFollower>
       </main>;
   
