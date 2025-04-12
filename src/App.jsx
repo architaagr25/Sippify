@@ -5,6 +5,7 @@ import {motion} from 'motion/react';
 import { UpdateFollower } from 'react-mouse-follower';
 import Products from './components/Products/Products';
 import Banner from './components/Banner/Banner';
+import BannerText from './components/Banner/BannerText';
 
 const App = () => {
   return <main className='overflow-x-hidden'>
@@ -20,6 +21,7 @@ const App = () => {
       <Hero/>
       <Products/>
       <Banner/>
+      <BannerText/>
       </UpdateFollower>
       </main>;
   
