@@ -8,6 +8,7 @@ import Banner from './components/Banner/Banner';
 import BannerText from './components/Banner/BannerText';
 import Stories from './components/Stories/Stories';
 import FAQ from './components/FAQ/FAQ';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return <main className='overflow-x-hidden'>
@@ -26,6 +27,7 @@ const App = () => {
       <BannerText/>
       <Stories/>
       <FAQ/>
+      <Footer/>
       </UpdateFollower>
       </main>;
   
